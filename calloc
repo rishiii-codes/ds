@@ -1,0 +1,26 @@
+#include <iostream>
+#include<stdlib.h>
+int main() {
+    int n;
+    cout<<"enter the no. of student";
+    cin>>n;
+    int *arr =(int *)calloc(n,sizeof(int));
+    if(arr==NULL){
+        cout<<"overflow";
+        return 0;
+        
+    }
+cout<<"enter"<<n<<"marks";
+    int sum=0;
+    for(int i=0;i<n;i+using namespace std;
++)
+    {
+        cin>>arr[i];
+    sum = sum+arr[i];
+    
+    }
+cout<<"total"<<sum;
+free(arr);
+
+    return 0;
+}
